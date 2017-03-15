@@ -63,6 +63,8 @@ array.splice(index, how many items to be removed)*/
 
 var testMenu = ["McPizza Burger", "McFly Burger", "McLinguine", "McChar-Siu Bau", "McChop-Chae", "McPancit"];
 
+testMenu.splice(2, 2);
+console.log(testMenu);
 
 
 /*=============================================================*/
@@ -75,7 +77,8 @@ var testMenu = ["McPizza Burger", "McFly Burger", "McLinguine", "McChar-Siu Bau"
 
 var westSide = ["Dre", "2Pac", "Snoop"];
 var eastSide = ["Biggie", "Diddy", "Craig Mack"];
-
+var oneLove = westSide.concat(eastSide);
+console.log(oneLove);
 
 
 /*The array.join() joins all the elements of an array into a string.*/
@@ -83,7 +86,8 @@ var eastSide = ["Biggie", "Diddy", "Craig Mack"];
 /*8. Help Nike sell more overpriced sneakers by changing their slogan from an array into a string. Convert the shoe array and assign it to a variable named `shoeString`. Console.log this new variable.*/
 
 var shoe = ["just", "do", "it"];
-
+var shoeString = shoe.join();
+console.log(shoeString);
 
 
 /*The array.slice() extracts a section of an array and returns a new array.
@@ -93,6 +97,8 @@ array.slice(index start, index end)*/
 "Yeezy", "Kimmy K" and "Lamar Odom". Unfriend these ungrateful people and assign them to a new variable named `unFriend`. Console.log this new variable.*/
 
 var fbFriends = ["Khalid", "Yeezy", "Kimmy K", "Lamar Odom", "Lebron", "Warren Buffet"];
+var unFriend = fbFriends.slice(1, 4);
+console.log(unFriend);
 
 
 
